@@ -52,8 +52,5 @@ lines(Time, SubMetering3, type="l", col="blue")
 ##Graph Global Reactive Power
 plot(Time, GlobalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
 
-##Add Legend
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=2.5, col=c("black", "red", "blue"), bty="o")
-
 ##Close Device
 dev.off()
